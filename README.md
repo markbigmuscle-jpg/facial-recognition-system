@@ -1,2 +1,2 @@
 # facial-recognition-system
-For school research
+- For school research
