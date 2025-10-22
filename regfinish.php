@@ -34,7 +34,6 @@
 				if ($s->execute()) {
 					echo "Registration success";
 				} else {
-					// FIX: Use mysqli error properties for reporting
 					echo "Error: " . $s->error . " (Error Code: " . $s->errno . ")";
 				}
 
@@ -45,3 +44,4 @@
 		</div>
 	</body>
 </html>
+
